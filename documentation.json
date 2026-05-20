@@ -125,5 +125,19 @@
   "template": "atlas",
   "logo-dark": "https://blob-cdn.documentation.ai/org-5b628e72-6eb4-41b8-ae98-12b40d260ae4/doc-61421531-0622-49d2-b565-772802a81036/1779292793390-02mp9rywxoqr-PH-websiteLogo-white.svg?fm=auto&auto=compress%2Cformat",
   "logo-light": "https://blob-cdn.documentation.ai/org-5b628e72-6eb4-41b8-ae98-12b40d260ae4/doc-61421531-0622-49d2-b565-772802a81036/1779292811743-c88m3rbzpoi-PH-websiteLogo-black.svg?fm=auto&auto=compress%2Cformat",
-  "favicon": "https://blob-cdn.documentation.ai/org-5b628e72-6eb4-41b8-ae98-12b40d260ae4/doc-61421531-0622-49d2-b565-772802a81036/1779292869186-aximo47bbmv-favicon.ico?fm=auto&auto=compress%2Cformat"
+  "favicon": "https://blob-cdn.documentation.ai/org-5b628e72-6eb4-41b8-ae98-12b40d260ae4/doc-61421531-0622-49d2-b565-772802a81036/1779292869186-aximo47bbmv-favicon.ico?fm=auto&auto=compress%2Cformat",
+  "navbar": {
+    "actions": {
+      "links": [
+        {
+          "title": "Demo",
+          "link": "https://proofhub.as.me/schedule.php?field:11582998=PHHelp-plus-top-bar"
+        },
+        {
+          "title": "Try now",
+          "link": "https://www.proofhub.com/try?ref=phhelpswift"
+        }
+      ]
+    }
+  }
 }
