@@ -1,0 +1,99 @@
+---
+title: Integrations
+description: Connect ProofHub with your favorite third-party tools to streamline your existing workflows.
+---
+
+## Overview
+
+You can extend ProofHub by connecting it to tools you already use every day. These integrations help you keep data in sync, reduce manual updates, and maintain one source of truth across your projects.
+
+<Callout kind="info">
+  All integrations require an active ProofHub account with admin access. Review your current plan limits before enabling new connections.
+</Callout>
+
+## Available Integrations
+
+ProofHub supports direct connections to popular productivity and communication platforms. Choose the category that matches your workflow.
+
+<Columns cols={2}>
+  <Card title="Slack" icon="message-circle" href="#slack">
+    Send project updates and task notifications directly to your team channels.
+  </Card>
+  <Card title="Google Drive" icon="folder" href="#drive">
+    Attach and sync files from your Drive folders without leaving ProofHub.
+  </Card>
+  <Card title="Zapier" icon="zap" href="#zapier">
+    Build custom automations between ProofHub and over 5,000 other apps.
+  </Card>
+  <Card title="Microsoft Teams" icon="users" href="#teams">
+    Receive alerts and collaborate on tasks inside your Teams workspace.
+  </Card>
+</Columns>
+
+## Connecting Productivity Apps
+
+You can set up most integrations in just a few minutes using the dedicated settings panel.
+
+<Tabs>
+  <Tab title="Slack" icon="message-circle">
+    1. Go to Settings > Integrations in ProofHub.
+    2. Select Slack and click Connect.
+    3. Authorize the ProofHub app in your Slack workspace.
+    4. Choose the channels that should receive notifications.
+
+    After setup, task assignments and deadline changes appear automatically in Slack.
+  </Tab>
+  <Tab title="Google Drive" icon="folder">
+    1. Open the Files tab in any ProofHub project.
+    2. Click Add Integration and select Google Drive.
+    3. Sign in with your Google account.
+    4. Pick the folders you want to link.
+
+    Linked files stay synchronized in both directions.
+  </Tab>
+</Tabs>
+
+## Using Webhooks and API Connections
+
+For advanced users, ProofHub offers webhooks and a full REST API so you can build custom solutions.
+
+<Steps>
+  <Step title="Create a webhook" icon="link">
+    Navigate to Settings > API & Webhooks. Click New Webhook and enter your endpoint URL.
+  </Step>
+  <Step title="Configure events" icon="settings">
+    Select the events you want to track, such as `task.created` or `comment.added`.
+  </Step>
+  <Step title="Test the connection" icon="play">
+    Send a test payload to verify your endpoint receives data correctly.
+  </Step>
+</Steps>
+
+````javascript
+// Example webhook payload
+{
+  "event": "task.updated",
+  "project_id": "proj_12345",
+  "task": {
+    "id": "task_67890",
+    "title": "Finalize Q3 report",
+    "status": "completed"
+  }
+}
+````
+
+You must include your API key in the `Authorization` header for all requests. Store the key securely and rotate it regularly.
+
+## Managing Synced Data and Permissions
+
+After an integration is active, you control exactly what data flows between systems.
+
+- Review connected accounts in the Integrations dashboard.
+- Revoke access instantly by clicking Disconnect next to any app.
+- Use role-based permissions to limit which team members can manage integrations.
+
+<Expandable title="Advanced permission settings" default-open="false">
+  You can create custom roles that restrict integration management to specific users. This prevents accidental changes to critical connections while still allowing team members to use the synced features.
+</Expandable>
+
+These controls keep your project data secure while giving you the flexibility to work across multiple tools.

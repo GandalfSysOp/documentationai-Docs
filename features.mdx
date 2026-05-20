@@ -1,0 +1,81 @@
+---
+title: Core Features
+description: Explore ProofHub's main capabilities including task management, workflows, and collaboration tools.
+---
+
+## Overview
+
+ProofHub helps you manage projects efficiently with powerful tools for tasks, workflows, planning, and team communication. You can create, assign, and track work items while automating repetitive steps to keep projects moving forward.
+
+<Callout kind="info">
+  Start by exploring task management features to organize your first project in minutes.
+</Callout>
+
+## Task Creation and Tracking
+
+You create tasks directly from the project board and assign them to team members with clear deadlines. ProofHub automatically updates status as work progresses.
+
+<Steps>
+  <Step title="Create a task" icon="plus">
+    Click the New Task button and enter details like title, description, and due date.
+  </Step>
+  <Step title="Assign and prioritize" icon="user">
+    Select team members and set priority levels from Low to Critical.
+  </Step>
+  <Step title="Track progress" icon="bar-chart">
+    Monitor completion using status columns and real-time updates.
+  </Step>
+</Steps>
+
+## Workflow Automation
+
+You can build custom workflows that match your team's processes. Automations handle status changes, notifications, and approvals without manual intervention.
+
+<Tabs>
+  <Tab title="Simple approval" icon="check-circle">
+    Route tasks through review stages automatically.
+  </Tab>
+  <Tab title="Custom rules" icon="settings">
+    Define triggers based on due dates or assignees.
+  </Tab>
+</Tabs>
+
+<CodeGroup tabs="JavaScript,Python">
+```javascript
+const workflow = await proofhub.createWorkflow({
+  name: "Marketing Review",
+  triggers: ["task.created"],
+  actions: ["notify.manager", "set.status.review"]
+});
+```
+```python
+workflow = proofhub.create_workflow(
+    name="Marketing Review",
+    triggers=["task.created"],
+    actions=["notify.manager", "set.status.review"]
+)
+```
+</CodeGroup>
+
+## Project Planning Tools
+
+You plan projects using visual timelines and milestones to keep everyone aligned on deliverables.
+
+<Columns cols={2}>
+  <Card title="Timeline view" icon="calendar" href="#timeline">
+    Visualize task dependencies and deadlines across weeks or months.
+  </Card>
+  <Card title="Milestones" icon="flag" href="#milestones">
+    Mark key checkpoints and celebrate completed phases.
+  </Card>
+</Columns>
+
+## Team Collaboration
+
+You communicate directly inside tasks with comments, file sharing, and mentions. ProofHub keeps all discussions in context so nothing gets lost.
+
+<Expandable title="Advanced collaboration options" default-open="false">
+  Enable real-time chat channels for urgent discussions and integrate with Slack for external notifications.
+</Expandable>
+
+These core features work together to give you complete visibility over your projects from start to finish.

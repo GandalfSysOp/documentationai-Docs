@@ -1,0 +1,84 @@
+---
+title: Quickstart Guide
+description: Get started with ProofHub in minutes by setting up your account, creating your first project, and inviting team members.
+---
+
+## Prerequisites
+
+<Callout kind="info">
+Before you begin, make sure you have a valid email address and access to your organization's workspace. You will need administrative privileges to create projects and invite users.
+</Callout>
+
+## Create Your Account
+
+Sign up for ProofHub to start managing projects efficiently. The platform supports teams across marketing, software development, and creative workflows.
+
+<Steps>
+<Step title="Sign up for ProofHub" icon="user-plus">
+Visit the signup page and enter your details. Choose a workspace name that reflects your team or company.
+</Step>
+<Step title="Verify your email" icon="mail">
+Check your inbox for a confirmation link. Click it to activate your account and access the dashboard.
+</Step>
+<Step title="Set up your profile" icon="settings">
+Upload a profile picture and configure notification preferences so you stay updated on task changes.
+</Step>
+</Steps>
+
+## Create Your First Project and Tasks
+
+Once logged in, you can organize work immediately. Use the intuitive interface to define projects and break them into actionable tasks.
+
+<CodeGroup tabs="cURL,JavaScript">
+```bash
+curl -X POST https://api.proofhub.com/v1/projects \
+  -H "Authorization: Bearer YOUR_API_KEY" \
+  -H "Content-Type: application/json" \
+  -d '{"name": "Website Redesign", "description": "Q4 marketing campaign site"}'
+```
+```javascript
+const response = await fetch('https://api.proofhub.com/v1/projects', {
+  method: 'POST',
+  headers: {
+    'Authorization': 'Bearer YOUR_API_KEY',
+    'Content-Type': 'application/json'
+  },
+  body: JSON.stringify({
+    name: 'Website Redesign',
+    description: 'Q4 marketing campaign site'
+  })
+});
+const project = await response.json();
+console.log(project.id);
+```
+</CodeGroup>
+
+Add tasks within the project to track progress. Assign due dates and priorities to keep everyone aligned.
+
+## Invite Team Members and Assign Roles
+
+Collaboration is at the core of ProofHub. Invite colleagues and define their permissions right away.
+
+<Tabs>
+<Tab title="Web Dashboard" icon="monitor">
+Navigate to Team Settings and enter email addresses. Select roles such as Admin, Manager, or Contributor for each person.
+</Tab>
+<Tab title="Bulk Invite" icon="users">
+Upload a CSV file containing names and emails to add multiple users at once and assign them to specific projects.
+</Tab>
+</Tabs>
+
+## Basic Navigation and Dashboard Overview
+
+The main dashboard displays active projects, upcoming deadlines, and team activity. Use the left sidebar to switch between Projects, Tasks, Reports, and Discussions.
+
+## Next Steps
+
+<Columns cols={2}>
+<Card title="Explore Advanced Features" icon="book-open" href="#advanced">
+Learn about time tracking, file proofing, and custom workflows.
+</Card>
+<Card title="API Reference" icon="code" href="#api">
+Integrate ProofHub with your existing tools using our REST endpoints.
+</Card>
+</Columns>
