@@ -139,5 +139,10 @@
         }
       ]
     }
+  },
+  "ai": {},
+  "feedback": {
+    "reactions": false,
+    "survey": false
   }
 }
