@@ -262,6 +262,14 @@
                 "group": "Reports",
                 "pages": [
                   {
+                    "title": "How to add and manage custom reports",
+                    "path": "how-to-add-and-manage-custom-reports"
+                  },
+                  {
+                    "title": "How to add and manage resource reports",
+                    "path": "how-to-add-and-manage-resource-reports"
+                  },
+                  {
                     "title": "Introduction to reports",
                     "path": "introduction-to-reports"
                   }
