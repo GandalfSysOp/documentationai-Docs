@@ -292,6 +292,30 @@
                 "group": "Files",
                 "pages": [
                   {
+                    "title": "How to upload files via email-in",
+                    "path": "how-to-upload-files-via-email-in"
+                  },
+                  {
+                    "title": "How to manage file versioning",
+                    "path": "how-to-manage-file-versioning"
+                  },
+                  {
+                    "title": "How to proof and approve files",
+                    "path": "how-to-proof-and-approve-files"
+                  },
+                  {
+                    "title": "How to switch between list view and thumb view",
+                    "path": "how-to-switch-between-list-view-and-thumb-view"
+                  },
+                  {
+                    "title": "How to add and manage files",
+                    "path": "how-to-add-and-manage-files"
+                  },
+                  {
+                    "title": "How to add and manage folders",
+                    "path": "how-to-add-and-manage-folders"
+                  },
+                  {
                     "title": "Introduction to files",
                     "path": "introduction-to-files"
                   }
