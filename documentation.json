@@ -86,17 +86,6 @@
             ]
           },
           {
-            "group": "Troubleshooting",
-            "icon": "alert-circle",
-            "expandable": false,
-            "pages": [
-              {
-                "title": "Can't Receive Notifications",
-                "path": "help-center/troubleshooting/can-t-receive-notifications"
-              }
-            ]
-          },
-          {
             "group": "Guides",
             "icon": "book-open",
             "expandable": false,
