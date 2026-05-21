@@ -224,7 +224,8 @@
           {
             "title": "Getting started",
             "path": "getting-started",
-            "icon": "align-center-horizontal-icon"
+            "icon": "align-center-horizontal-icon",
+            "ask-feedback": false
           }
         ]
       }
