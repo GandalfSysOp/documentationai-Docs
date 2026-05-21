@@ -228,6 +228,10 @@
             "group": "Endpoints",
             "pages": [
               {
+                "title": "Discussion Comments",
+                "path": "discussion-comments"
+              },
+              {
                 "title": "Topics",
                 "path": "topics"
               },
