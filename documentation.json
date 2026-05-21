@@ -253,9 +253,7 @@
     }
   },
   "ai": {
-    "page-actions": [
-      "mcp"
-    ]
+    "page-actions": []
   },
   "feedback": {
     "reactions": false,
