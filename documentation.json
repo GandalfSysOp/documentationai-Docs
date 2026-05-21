@@ -91,6 +91,96 @@
             "expandable": false,
             "pages": [
               {
+                "group": "Chat",
+                "pages": [
+                  {
+                    "title": "Introduction to chat",
+                    "path": "introduction-to-chat"
+                  }
+                ],
+                "icon": "lucide-message-circle-more"
+              },
+              {
+                "group": "Reports",
+                "pages": [
+                  {
+                    "title": "Introduction to reports",
+                    "path": "introduction-to-reports"
+                  }
+                ],
+                "icon": "lucide-message-circle-reply"
+              },
+              {
+                "group": "People",
+                "pages": [
+                  {
+                    "title": "Introduction to people",
+                    "path": "introduction-to-people"
+                  }
+                ],
+                "icon": "circle-user-round"
+              },
+              {
+                "group": "Calendar",
+                "pages": [
+                  {
+                    "title": "Introduction to calendar",
+                    "path": "introduction-to-calendar"
+                  }
+                ],
+                "icon": "calendar-days"
+              },
+              {
+                "group": "Files",
+                "pages": [
+                  {
+                    "title": "Introduction to files",
+                    "path": "introduction-to-files"
+                  }
+                ],
+                "icon": "file-audio"
+              },
+              {
+                "group": "Notes",
+                "pages": [
+                  {
+                    "title": "Introduction to notes",
+                    "path": "introduction-to-notes"
+                  }
+                ],
+                "icon": "lucide-notebook-pen"
+              },
+              {
+                "group": "Discussions",
+                "pages": [
+                  {
+                    "title": "Introduction to discussions",
+                    "path": "introduction-to-discussions"
+                  }
+                ],
+                "icon": "align-end-horizontal-icon"
+              },
+              {
+                "group": "Time",
+                "pages": [
+                  {
+                    "title": "Introduction to time",
+                    "path": "introduction-to-time"
+                  }
+                ],
+                "icon": "clock"
+              },
+              {
+                "group": "Gantt",
+                "pages": [
+                  {
+                    "title": "Introduction to gantt",
+                    "path": "introduction-to-gantt"
+                  }
+                ],
+                "icon": "airplay-icon"
+              },
+              {
                 "group": "Projects",
                 "pages": [
                   {
