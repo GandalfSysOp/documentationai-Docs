@@ -122,12 +122,8 @@
                 "group": "Projects",
                 "pages": [
                   {
-                    "title": "Import projects from Basecamp",
-                    "path": "import-projects-from-basecamp"
-                  },
-                  {
-                    "title": "Import projects from Asana",
-                    "path": "import-projects-from-asana"
+                    "title": "Introduction to projects",
+                    "path": "introduction-to-projects"
                   },
                   {
                     "title": "What is a template",
@@ -146,8 +142,12 @@
                     "path": "how-to-add-and-manage-projects"
                   },
                   {
-                    "title": "Introduction to projects",
-                    "path": "introduction-to-projects"
+                    "title": "Import projects from Asana",
+                    "path": "import-projects-from-asana"
+                  },
+                  {
+                    "title": "Import projects from Basecamp",
+                    "path": "import-projects-from-basecamp"
                   }
                 ],
                 "icon": "alert-triangle-icon"
@@ -155,6 +155,42 @@
               {
                 "group": "Tasks",
                 "pages": [
+                  {
+                    "title": "How to utilize all tasks",
+                    "path": "how-to-utilize-all-tasks"
+                  },
+                  {
+                    "title": "How to use filters in task",
+                    "path": "how-to-use-filters-in-task"
+                  },
+                  {
+                    "title": "How to change views in tasks",
+                    "path": "how-to-change-views-in-tasks"
+                  },
+                  {
+                    "title": "How to add and manage forms",
+                    "path": "how-to-add-and-manage-forms"
+                  },
+                  {
+                    "title": "How to add tasks via email-in",
+                    "path": "how-to-add-tasks-via-email-in"
+                  },
+                  {
+                    "title": "How to import and export tasks",
+                    "path": "how-to-import-and-export-tasks"
+                  },
+                  {
+                    "title": "How to add and manage custom fields",
+                    "path": "how-to-add-and-manage-custom-fields"
+                  },
+                  {
+                    "title": "How to add and manage task",
+                    "path": "how-to-add-and-manage-task"
+                  },
+                  {
+                    "title": "How to add and manage task list",
+                    "path": "how-to-add-and-manage-task-list"
+                  },
                   {
                     "title": "Introduction to tasks",
                     "path": "introduction-to-tasks"
