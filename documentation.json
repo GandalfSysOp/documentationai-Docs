@@ -695,7 +695,8 @@
             "show-toc": false,
             "show-parent-label": false,
             "show-page-navigation": false,
-            "ask-feedback": false
+            "ask-feedback": false,
+            "content-width": "wide"
           }
         ],
         "icon": "circle-question-mark"
