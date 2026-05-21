@@ -225,6 +225,22 @@
         "tab": "API",
         "pages": [
           {
+            "group": "Announcements",
+            "pages": []
+          },
+          {
+            "group": "Attachments",
+            "pages": []
+          },
+          {
+            "group": "Categories",
+            "pages": []
+          },
+          {
+            "group": "Events & Milestones",
+            "pages": []
+          },
+          {
             "group": "Files",
             "pages": []
           },
@@ -290,14 +306,6 @@
           },
           {
             "group": "Topics",
-            "pages": []
-          },
-          {
-            "group": "Attachments",
-            "pages": []
-          },
-          {
-            "group": "Announcements",
             "pages": []
           }
         ],
