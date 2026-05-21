@@ -29,96 +29,6 @@
             "expandable": false,
             "pages": [
               {
-                "group": "Chat",
-                "pages": [
-                  {
-                    "title": "Introduction to chat",
-                    "path": "introduction-to-chat"
-                  }
-                ],
-                "icon": "lucide-message-circle-more"
-              },
-              {
-                "group": "Reports",
-                "pages": [
-                  {
-                    "title": "Introduction to reports",
-                    "path": "introduction-to-reports"
-                  }
-                ],
-                "icon": "lucide-message-circle-reply"
-              },
-              {
-                "group": "People",
-                "pages": [
-                  {
-                    "title": "Introduction to people",
-                    "path": "introduction-to-people"
-                  }
-                ],
-                "icon": "circle-user-round"
-              },
-              {
-                "group": "Calendar",
-                "pages": [
-                  {
-                    "title": "Introduction to calendar",
-                    "path": "introduction-to-calendar"
-                  }
-                ],
-                "icon": "calendar-days"
-              },
-              {
-                "group": "Files",
-                "pages": [
-                  {
-                    "title": "Introduction to files",
-                    "path": "introduction-to-files"
-                  }
-                ],
-                "icon": "file-audio"
-              },
-              {
-                "group": "Notes",
-                "pages": [
-                  {
-                    "title": "Introduction to notes",
-                    "path": "introduction-to-notes"
-                  }
-                ],
-                "icon": "lucide-notebook-pen"
-              },
-              {
-                "group": "Discussions",
-                "pages": [
-                  {
-                    "title": "Introduction to discussions",
-                    "path": "introduction-to-discussions"
-                  }
-                ],
-                "icon": "align-end-horizontal-icon"
-              },
-              {
-                "group": "Time",
-                "pages": [
-                  {
-                    "title": "Introduction to time",
-                    "path": "introduction-to-time"
-                  }
-                ],
-                "icon": "clock"
-              },
-              {
-                "group": "Gantt",
-                "pages": [
-                  {
-                    "title": "Introduction to gantt",
-                    "path": "introduction-to-gantt"
-                  }
-                ],
-                "icon": "airplay-icon"
-              },
-              {
                 "group": "Projects",
                 "pages": [
                   {
@@ -225,6 +135,136 @@
                   }
                 ],
                 "icon": "alert-octagon"
+              },
+              {
+                "group": "Gantt",
+                "pages": [
+                  {
+                    "title": "How to utilize all gantt",
+                    "path": "how-to-utilize-all-gantt"
+                  },
+                  {
+                    "title": "How to export a gantt",
+                    "path": "how-to-export-a-gantt"
+                  },
+                  {
+                    "title": "How to use a baseline",
+                    "path": "how-to-use-a-baseline"
+                  },
+                  {
+                    "title": "How to set a dependency",
+                    "path": "how-to-set-a-dependency"
+                  },
+                  {
+                    "title": "How to add and manage items in gantt",
+                    "path": "how-to-add-and-manage-items-in-gantt"
+                  },
+                  {
+                    "title": "Introduction to gantt",
+                    "path": "introduction-to-gantt"
+                  }
+                ],
+                "icon": "airplay-icon"
+              },
+              {
+                "group": "Time",
+                "pages": [
+                  {
+                    "title": "How to download and export timesheets",
+                    "path": "how-to-download-and-export-timesheets"
+                  },
+                  {
+                    "title": "Bulk actions on time",
+                    "path": "bulk-actions-on-time"
+                  },
+                  {
+                    "title": "How to utilize all time",
+                    "path": "how-to-utilize-all-time"
+                  },
+                  {
+                    "title": "How to add and manage time",
+                    "path": "how-to-add-and-manage-time"
+                  },
+                  {
+                    "title": "How to add and manage timesheets",
+                    "path": "how-to-add-and-manage-timesheets"
+                  },
+                  {
+                    "title": "Introduction to time",
+                    "path": "introduction-to-time"
+                  }
+                ],
+                "icon": "clock"
+              },
+              {
+                "group": "Chat",
+                "pages": [
+                  {
+                    "title": "Introduction to chat",
+                    "path": "introduction-to-chat"
+                  }
+                ],
+                "icon": "lucide-message-circle-more"
+              },
+              {
+                "group": "Reports",
+                "pages": [
+                  {
+                    "title": "Introduction to reports",
+                    "path": "introduction-to-reports"
+                  }
+                ],
+                "icon": "lucide-message-circle-reply"
+              },
+              {
+                "group": "People",
+                "pages": [
+                  {
+                    "title": "Introduction to people",
+                    "path": "introduction-to-people"
+                  }
+                ],
+                "icon": "circle-user-round"
+              },
+              {
+                "group": "Calendar",
+                "pages": [
+                  {
+                    "title": "Introduction to calendar",
+                    "path": "introduction-to-calendar"
+                  }
+                ],
+                "icon": "calendar-days"
+              },
+              {
+                "group": "Files",
+                "pages": [
+                  {
+                    "title": "Introduction to files",
+                    "path": "introduction-to-files"
+                  }
+                ],
+                "icon": "file-audio"
+              },
+              {
+                "group": "Notes",
+                "pages": [
+                  {
+                    "title": "Introduction to notes",
+                    "path": "introduction-to-notes"
+                  }
+                ],
+                "icon": "lucide-notebook-pen"
+              },
+              {
+                "group": "Discussions",
+                "pages": [
+                  {
+                    "title": "Introduction to discussions",
+                    "path": "introduction-to-discussions"
+                  }
+                ],
+                "icon": "align-end-horizontal-icon"
               }
             ]
           }
