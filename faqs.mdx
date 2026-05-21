@@ -1,6 +1,45 @@
 ---
 title: FAQs
 ---
+<style>{`
+.faq-item {
+  border-bottom: 1px solid #e5e7eb;
+  padding: 18px 0;
+}
+
+.faq-item summary {
+  list-style: none;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 600;
+  color: #1f2937;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.faq-item summary::-webkit-details-marker {
+  display: none;
+}
+
+.faq-item summary::after {
+  content: "⌄";
+  font-size: 20px;
+  color: #6b7280;
+  transition: transform 0.2s ease;
+}
+
+.faq-item[open] summary::after {
+  transform: rotate(180deg);
+}
+
+.faq-content {
+  margin-top: 14px;
+  color: #4b5563;
+  line-height: 1.7;
+  font-size: 15px;
+}
+`}</style>
 
 <details>
   <summary><strong>Do I need to purchase a license for signing up with ProofHub?</strong></summary>
