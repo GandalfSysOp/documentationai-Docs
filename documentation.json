@@ -70,6 +70,16 @@
         "icon": "help-circle",
         "pages": [
           {
+            "group": "Projects",
+            "pages": [
+              {
+                "title": "Introduction to projects",
+                "path": "introduction-to-projects"
+              }
+            ],
+            "icon": "alert-triangle-icon"
+          },
+          {
             "group": "Tasks",
             "pages": [
               {
