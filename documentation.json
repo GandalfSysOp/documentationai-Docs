@@ -228,6 +228,46 @@
             "group": "Endpoints",
             "pages": [
               {
+                "title": "Annoucements",
+                "path": "annoucements"
+              },
+              {
+                "title": "Attachments",
+                "path": "attachments"
+              },
+              {
+                "title": "Categories",
+                "path": "categories"
+              },
+              {
+                "title": "Events & Milestones",
+                "path": "events-milestones"
+              },
+              {
+                "title": "Everything",
+                "path": "everything"
+              },
+              {
+                "title": "Files",
+                "path": "files"
+              },
+              {
+                "title": "Folders",
+                "path": "folders"
+              },
+              {
+                "title": "Groups",
+                "path": "groups"
+              },
+              {
+                "title": "Languages",
+                "path": "languages"
+              },
+              {
+                "title": "Notebooks",
+                "path": "notebooks"
+              },
+              {
                 "title": "Notes",
                 "path": "notes"
               },
@@ -274,92 +314,8 @@
               {
                 "title": "Topics",
                 "path": "topics"
-              },
-              {
-                "title": "Annoucements",
-                "path": "annoucements"
               }
             ]
-          },
-          {
-            "group": "Attachments",
-            "pages": []
-          },
-          {
-            "group": "Categories",
-            "pages": []
-          },
-          {
-            "group": "Events & Milestones",
-            "pages": []
-          },
-          {
-            "group": "Files",
-            "pages": []
-          },
-          {
-            "group": "Folders",
-            "pages": []
-          },
-          {
-            "group": "Groups",
-            "pages": []
-          },
-          {
-            "group": "Languages",
-            "pages": []
-          },
-          {
-            "group": "Notebooks",
-            "pages": []
-          },
-          {
-            "group": "Notes",
-            "pages": []
-          },
-          {
-            "group": "People",
-            "pages": []
-          },
-          {
-            "group": "Projects",
-            "pages": []
-          },
-          {
-            "group": "Request forms",
-            "pages": []
-          },
-          {
-            "group": "Roles",
-            "pages": []
-          },
-          {
-            "group": "Tasks",
-            "pages": []
-          },
-          {
-            "group": "Time",
-            "pages": []
-          },
-          {
-            "group": "Timesheets",
-            "pages": []
-          },
-          {
-            "group": "Timezones",
-            "pages": []
-          },
-          {
-            "group": "Todolists",
-            "pages": []
-          },
-          {
-            "group": "Discussion Comments",
-            "pages": []
-          },
-          {
-            "group": "Topics",
-            "pages": []
           }
         ],
         "icon": "align-vertical-distribute-center-icon"
