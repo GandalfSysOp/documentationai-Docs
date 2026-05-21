@@ -197,6 +197,28 @@
                 "icon": "clock"
               },
               {
+                "group": "Discussions",
+                "pages": [
+                  {
+                    "title": "How to use email-in in discussions",
+                    "path": "how-to-use-email-in-in-discussions"
+                  },
+                  {
+                    "title": "How to collaborate on discussions",
+                    "path": "how-to-collaborate-on-discussions"
+                  },
+                  {
+                    "title": "How to add and manage discussions",
+                    "path": "how-to-add-and-manage-discussions"
+                  },
+                  {
+                    "title": "Introduction to discussions",
+                    "path": "introduction-to-discussions"
+                  }
+                ],
+                "icon": "align-end-horizontal-icon"
+              },
+              {
                 "group": "Chat",
                 "pages": [
                   {
@@ -255,16 +277,6 @@
                   }
                 ],
                 "icon": "lucide-notebook-pen"
-              },
-              {
-                "group": "Discussions",
-                "pages": [
-                  {
-                    "title": "Introduction to discussions",
-                    "path": "introduction-to-discussions"
-                  }
-                ],
-                "icon": "align-end-horizontal-icon"
               }
             ]
           }
