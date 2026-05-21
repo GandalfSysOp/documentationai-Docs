@@ -87,15 +87,21 @@
                   },
                   {
                     "title": "How to view task dependency",
-                    "path": "how-to-view-task-dependency"
+                    "path": "how-to-view-task-dependency",
+                    "show-toc": false,
+                    "ask-feedback": false
                   },
                   {
                     "title": "How to view task history",
-                    "path": "how-to-view-task-history"
+                    "path": "how-to-view-task-history",
+                    "show-toc": false,
+                    "ask-feedback": false
                   },
                   {
                     "title": "How to manage workflow in tasks",
-                    "path": "how-to-manage-workflow-in-tasks"
+                    "path": "how-to-manage-workflow-in-tasks",
+                    "show-toc": false,
+                    "ask-feedback": false
                   },
                   {
                     "title": "How to log time in a task",
@@ -119,7 +125,9 @@
                   },
                   {
                     "title": "How to add tasks via email-in",
-                    "path": "how-to-add-tasks-via-email-in"
+                    "path": "how-to-add-tasks-via-email-in",
+                    "show-toc": false,
+                    "ask-feedback": false
                   },
                   {
                     "title": "How to import and export tasks",
