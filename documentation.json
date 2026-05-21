@@ -17,7 +17,11 @@
           {
             "title": "Help Center",
             "path": "help-center",
-            "icon": "home"
+            "icon": "home",
+            "show-toc": false,
+            "show-parent-label": false,
+            "show-page-navigation": false,
+            "ask-feedback": false
           },
           {
             "group": "Guides",
