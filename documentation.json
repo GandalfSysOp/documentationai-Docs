@@ -225,10 +225,10 @@
         "tab": "API",
         "pages": [
           {
-            "group": "Announcements",
+            "group": "Endpoints",
             "pages": [
               {
-                "title": "annoucements",
+                "title": "Annoucements",
                 "path": "annoucements"
               }
             ]
