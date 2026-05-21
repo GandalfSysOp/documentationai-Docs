@@ -282,6 +282,30 @@
                 "group": "Calendar",
                 "pages": [
                   {
+                    "title": "How to utilize all calendars",
+                    "path": "how-to-utilize-all-calendars"
+                  },
+                  {
+                    "title": "How to filter and customize calendar",
+                    "path": "how-to-filter-and-customize-calendar"
+                  },
+                  {
+                    "title": "How to subscribe and download the calendar",
+                    "path": "how-to-subscribe-and-download-the-calendar"
+                  },
+                  {
+                    "title": "How to add a task in calendar",
+                    "path": "how-to-add-a-task-in-calendar"
+                  },
+                  {
+                    "title": "How to add and manage a milestone",
+                    "path": "how-to-add-and-manage-a-milestone"
+                  },
+                  {
+                    "title": "How to add and manage an event",
+                    "path": "how-to-add-and-manage-an-event"
+                  },
+                  {
                     "title": "Introduction to calendar",
                     "path": "introduction-to-calendar"
                   }
