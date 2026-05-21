@@ -219,6 +219,36 @@
                 "icon": "align-end-horizontal-icon"
               },
               {
+                "group": "Notes",
+                "pages": [
+                  {
+                    "title": "How to search and filter notebooks and notes",
+                    "path": "how-to-search-and-filter-notebooks-and-notes"
+                  },
+                  {
+                    "title": "How to download and move notes",
+                    "path": "how-to-download-and-move-notes"
+                  },
+                  {
+                    "title": "How to collaborate on notes",
+                    "path": "how-to-collaborate-on-notes"
+                  },
+                  {
+                    "title": "How to add and manage notes",
+                    "path": "how-to-add-and-manage-notes"
+                  },
+                  {
+                    "title": "How to add and manage notebooks",
+                    "path": "how-to-add-and-manage-notebooks"
+                  },
+                  {
+                    "title": "Introduction to notes",
+                    "path": "introduction-to-notes"
+                  }
+                ],
+                "icon": "lucide-notebook-pen"
+              },
+              {
                 "group": "Chat",
                 "pages": [
                   {
@@ -267,16 +297,6 @@
                   }
                 ],
                 "icon": "file-audio"
-              },
-              {
-                "group": "Notes",
-                "pages": [
-                  {
-                    "title": "Introduction to notes",
-                    "path": "introduction-to-notes"
-                  }
-                ],
-                "icon": "lucide-notebook-pen"
               }
             ]
           }
