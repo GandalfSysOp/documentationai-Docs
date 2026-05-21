@@ -33,7 +33,9 @@
                 "pages": [
                   {
                     "title": "Introduction to projects",
-                    "path": "introduction-to-projects"
+                    "path": "introduction-to-projects",
+                    "show-toc": false,
+                    "ask-feedback": false
                   },
                   {
                     "title": "What is a template",
@@ -53,11 +55,15 @@
                   },
                   {
                     "title": "Import projects from Asana",
-                    "path": "import-projects-from-asana"
+                    "path": "import-projects-from-asana",
+                    "show-toc": false,
+                    "ask-feedback": false
                   },
                   {
                     "title": "Import projects from Basecamp",
-                    "path": "import-projects-from-basecamp"
+                    "path": "import-projects-from-basecamp",
+                    "show-toc": false,
+                    "ask-feedback": false
                   }
                 ],
                 "icon": "alert-triangle-icon"
