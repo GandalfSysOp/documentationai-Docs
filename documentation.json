@@ -29,6 +29,20 @@
             "expandable": false,
             "pages": [
               {
+                "group": "Me View",
+                "pages": [
+                  {
+                    "title": "How to add and manage widgets",
+                    "path": "how-to-add-and-manage-widgets"
+                  },
+                  {
+                    "title": "Introduction to me view",
+                    "path": "introduction-to-me-view"
+                  }
+                ],
+                "icon": "view-icon"
+              },
+              {
                 "group": "Projects",
                 "pages": [
                   {
@@ -252,6 +266,26 @@
                 "group": "Chat",
                 "pages": [
                   {
+                    "title": "Reaction to chat messages",
+                    "path": "reaction-to-chat-messages"
+                  },
+                  {
+                    "title": "Save chat messages",
+                    "path": "save-chat-messages"
+                  },
+                  {
+                    "title": "Attach a file in chat",
+                    "path": "attach-a-file-in-chat"
+                  },
+                  {
+                    "title": "Group chat",
+                    "path": "group-chat"
+                  },
+                  {
+                    "title": "One-to-one chat",
+                    "path": "one-to-one-chat"
+                  },
+                  {
                     "title": "Introduction to chat",
                     "path": "introduction-to-chat"
                   }
@@ -261,6 +295,10 @@
               {
                 "group": "Reports",
                 "pages": [
+                  {
+                    "title": "How to add and manage work reports",
+                    "path": "how-to-add-and-manage-work-reports"
+                  },
                   {
                     "title": "How to add and manage custom reports",
                     "path": "how-to-add-and-manage-custom-reports"
