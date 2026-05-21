@@ -218,13 +218,13 @@
         ]
       },
       {
-        "tab": "Changelog",
+        "tab": "Getting started",
         "icon": "clock",
         "pages": [
           {
-            "title": "Release History",
-            "path": "changelog",
-            "icon": "history"
+            "title": "Getting started",
+            "path": "getting-started",
+            "icon": "align-center-horizontal-icon"
           }
         ]
       }
