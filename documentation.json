@@ -228,6 +228,10 @@
             "group": "Endpoints",
             "pages": [
               {
+                "title": "Topics",
+                "path": "topics"
+              },
+              {
                 "title": "Annoucements",
                 "path": "annoucements"
               }
