@@ -227,7 +227,8 @@
             "icon": "align-center-horizontal-icon",
             "ask-feedback": false,
             "show-sidebar": false,
-            "show-parent-label": false
+            "show-parent-label": false,
+            "show-page-navigation": false
           }
         ]
       }
