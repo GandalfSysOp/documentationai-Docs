@@ -228,7 +228,10 @@
             "title": "ProofHub API",
             "path": "proofhub-api",
             "show-page-navigation": false,
-            "ask-feedback": false
+            "ask-feedback": false,
+            "icon": "lucide-home",
+            "show-toc": false,
+            "show-parent-label": false
           },
           {
             "group": "Endpoints",
