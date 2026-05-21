@@ -29,78 +29,6 @@
             "expandable": false,
             "pages": [
               {
-                "group": "Manage",
-                "pages": [
-                  {
-                    "title": "How to add and manage workflow",
-                    "path": "how-to-add-and-manage-workflow"
-                  },
-                  {
-                    "title": "How to add and manage task labels",
-                    "path": "how-to-add-and-manage-task-labels"
-                  },
-                  {
-                    "title": "How to add and manage project categories",
-                    "path": "how-to-add-and-manage-project-categories"
-                  },
-                  {
-                    "title": "How to add and manage project statuses",
-                    "path": "how-to-add-and-manage-project-statuses"
-                  },
-                  {
-                    "title": "How to manage trash",
-                    "path": "how-to-manage-trash"
-                  },
-                  {
-                    "title": "How to add and manage custom roles",
-                    "path": "how-to-add-and-manage-custom-roles"
-                  },
-                  {
-                    "title": "How to manage bulk allocation",
-                    "path": "how-to-manage-bulk-allocation"
-                  },
-                  {
-                    "title": "How to manage apps and integrations",
-                    "path": "how-to-manage-apps-and-integrations"
-                  },
-                  {
-                    "title": "How to manage a plan",
-                    "path": "how-to-manage-a-plan"
-                  },
-                  {
-                    "title": "How to cancel an account",
-                    "path": "how-to-cancel-an-account"
-                  },
-                  {
-                    "title": "How to import from Asana and Basecamp",
-                    "path": "how-to-import-from-asana-and-basecamp"
-                  },
-                  {
-                    "title": "How to view activity logs",
-                    "path": "how-to-view-activity-logs"
-                  },
-                  {
-                    "title": "How to manage ProofHub settings",
-                    "path": "how-to-manage-proofhub-settings"
-                  }
-                ],
-                "icon": "lucide-settings"
-              },
-              {
-                "group": "Me View",
-                "pages": [
-                  {
-                    "title": "How to add and manage widgets",
-                    "path": "how-to-add-and-manage-widgets"
-                  },
-                  {
-                    "title": "Introduction to me view",
-                    "path": "introduction-to-me-view"
-                  }
-                ],
-                "icon": "view-icon"
-              },
-              {
                 "group": "Projects",
                 "pages": [
                   {
@@ -321,82 +249,38 @@
                 "icon": "lucide-notebook-pen"
               },
               {
-                "group": "Chat",
+                "group": "Files",
                 "pages": [
                   {
-                    "title": "Reaction to chat messages",
-                    "path": "reaction-to-chat-messages"
+                    "title": "How to upload files via email-in",
+                    "path": "how-to-upload-files-via-email-in"
                   },
                   {
-                    "title": "Save chat messages",
-                    "path": "save-chat-messages"
+                    "title": "How to manage file versioning",
+                    "path": "how-to-manage-file-versioning"
                   },
                   {
-                    "title": "Attach a file in chat",
-                    "path": "attach-a-file-in-chat"
+                    "title": "How to proof and approve files",
+                    "path": "how-to-proof-and-approve-files"
                   },
                   {
-                    "title": "Group chat",
-                    "path": "group-chat"
+                    "title": "How to switch between list view and thumb view",
+                    "path": "how-to-switch-between-list-view-and-thumb-view"
                   },
                   {
-                    "title": "One-to-one chat",
-                    "path": "one-to-one-chat"
+                    "title": "How to add and manage files",
+                    "path": "how-to-add-and-manage-files"
                   },
                   {
-                    "title": "Introduction to chat",
-                    "path": "introduction-to-chat"
+                    "title": "How to add and manage folders",
+                    "path": "how-to-add-and-manage-folders"
+                  },
+                  {
+                    "title": "Introduction to files",
+                    "path": "introduction-to-files"
                   }
                 ],
-                "icon": "lucide-message-circle-more"
-              },
-              {
-                "group": "Reports",
-                "pages": [
-                  {
-                    "title": "How to add and manage work reports",
-                    "path": "how-to-add-and-manage-work-reports"
-                  },
-                  {
-                    "title": "How to add and manage custom reports",
-                    "path": "how-to-add-and-manage-custom-reports"
-                  },
-                  {
-                    "title": "How to add and manage resource reports",
-                    "path": "how-to-add-and-manage-resource-reports"
-                  },
-                  {
-                    "title": "Introduction to reports",
-                    "path": "introduction-to-reports"
-                  }
-                ],
-                "icon": "lucide-message-circle-reply"
-              },
-              {
-                "group": "People",
-                "pages": [
-                  {
-                    "title": "How to change the password",
-                    "path": "how-to-change-the-password"
-                  },
-                  {
-                    "title": "Bulk actions on people",
-                    "path": "bulk-actions-on-people"
-                  },
-                  {
-                    "title": "How to add and manage people",
-                    "path": "how-to-add-and-manage-people"
-                  },
-                  {
-                    "title": "How to add and manage group",
-                    "path": "how-to-add-and-manage-group"
-                  },
-                  {
-                    "title": "Introduction to people",
-                    "path": "introduction-to-people"
-                  }
-                ],
-                "icon": "circle-user-round"
+                "icon": "file-audio"
               },
               {
                 "group": "Calendar",
@@ -433,38 +317,228 @@
                 "icon": "calendar-days"
               },
               {
-                "group": "Files",
+                "group": "People",
                 "pages": [
                   {
-                    "title": "How to upload files via email-in",
-                    "path": "how-to-upload-files-via-email-in"
+                    "title": "How to change the password",
+                    "path": "how-to-change-the-password"
                   },
                   {
-                    "title": "How to manage file versioning",
-                    "path": "how-to-manage-file-versioning"
+                    "title": "Bulk actions on people",
+                    "path": "bulk-actions-on-people"
                   },
                   {
-                    "title": "How to proof and approve files",
-                    "path": "how-to-proof-and-approve-files"
+                    "title": "How to add and manage people",
+                    "path": "how-to-add-and-manage-people"
                   },
                   {
-                    "title": "How to switch between list view and thumb view",
-                    "path": "how-to-switch-between-list-view-and-thumb-view"
+                    "title": "How to add and manage group",
+                    "path": "how-to-add-and-manage-group"
                   },
                   {
-                    "title": "How to add and manage files",
-                    "path": "how-to-add-and-manage-files"
-                  },
-                  {
-                    "title": "How to add and manage folders",
-                    "path": "how-to-add-and-manage-folders"
-                  },
-                  {
-                    "title": "Introduction to files",
-                    "path": "introduction-to-files"
+                    "title": "Introduction to people",
+                    "path": "introduction-to-people"
                   }
                 ],
-                "icon": "file-audio"
+                "icon": "circle-user-round"
+              },
+              {
+                "group": "Reports",
+                "pages": [
+                  {
+                    "title": "How to add and manage work reports",
+                    "path": "how-to-add-and-manage-work-reports"
+                  },
+                  {
+                    "title": "How to add and manage custom reports",
+                    "path": "how-to-add-and-manage-custom-reports"
+                  },
+                  {
+                    "title": "How to add and manage resource reports",
+                    "path": "how-to-add-and-manage-resource-reports"
+                  },
+                  {
+                    "title": "Introduction to reports",
+                    "path": "introduction-to-reports"
+                  }
+                ],
+                "icon": "lucide-message-circle-reply"
+              },
+              {
+                "group": "Chat",
+                "pages": [
+                  {
+                    "title": "Reaction to chat messages",
+                    "path": "reaction-to-chat-messages"
+                  },
+                  {
+                    "title": "Save chat messages",
+                    "path": "save-chat-messages"
+                  },
+                  {
+                    "title": "Attach a file in chat",
+                    "path": "attach-a-file-in-chat"
+                  },
+                  {
+                    "title": "Group chat",
+                    "path": "group-chat"
+                  },
+                  {
+                    "title": "One-to-one chat",
+                    "path": "one-to-one-chat"
+                  },
+                  {
+                    "title": "Introduction to chat",
+                    "path": "introduction-to-chat"
+                  }
+                ],
+                "icon": "lucide-message-circle-more"
+              },
+              {
+                "group": "Manage",
+                "pages": [
+                  {
+                    "title": "How to add and manage workflow",
+                    "path": "how-to-add-and-manage-workflow"
+                  },
+                  {
+                    "title": "How to add and manage task labels",
+                    "path": "how-to-add-and-manage-task-labels"
+                  },
+                  {
+                    "title": "How to add and manage project categories",
+                    "path": "how-to-add-and-manage-project-categories"
+                  },
+                  {
+                    "title": "How to add and manage project statuses",
+                    "path": "how-to-add-and-manage-project-statuses"
+                  },
+                  {
+                    "title": "How to manage trash",
+                    "path": "how-to-manage-trash"
+                  },
+                  {
+                    "title": "How to add and manage custom roles",
+                    "path": "how-to-add-and-manage-custom-roles"
+                  },
+                  {
+                    "title": "How to manage bulk allocation",
+                    "path": "how-to-manage-bulk-allocation"
+                  },
+                  {
+                    "title": "How to manage apps and integrations",
+                    "path": "how-to-manage-apps-and-integrations"
+                  },
+                  {
+                    "title": "How to manage a plan",
+                    "path": "how-to-manage-a-plan"
+                  },
+                  {
+                    "title": "How to cancel an account",
+                    "path": "how-to-cancel-an-account"
+                  },
+                  {
+                    "title": "How to import from Asana and Basecamp",
+                    "path": "how-to-import-from-asana-and-basecamp"
+                  },
+                  {
+                    "title": "How to view activity logs",
+                    "path": "how-to-view-activity-logs"
+                  },
+                  {
+                    "title": "How to manage ProofHub settings",
+                    "path": "how-to-manage-proofhub-settings"
+                  }
+                ],
+                "icon": "lucide-settings"
+              },
+              {
+                "group": "Me View",
+                "pages": [
+                  {
+                    "title": "How to add and manage widgets",
+                    "path": "how-to-add-and-manage-widgets"
+                  },
+                  {
+                    "title": "Introduction to me view",
+                    "path": "introduction-to-me-view"
+                  }
+                ],
+                "icon": "view-icon"
+              },
+              {
+                "group": "Other",
+                "pages": [
+                  {
+                    "title": "Introduction to advanced search",
+                    "path": "introduction-to-advanced-search"
+                  },
+                  {
+                    "title": "How to manage in-app notifications",
+                    "path": "how-to-manage-in-app-notifications"
+                  },
+                  {
+                    "title": "How to set a background image",
+                    "path": "how-to-set-a-background-image"
+                  },
+                  {
+                    "title": "How to add and manage announcements",
+                    "path": "how-to-add-and-manage-announcements"
+                  },
+                  {
+                    "title": "How to add and manage stickies",
+                    "path": "how-to-add-and-manage-stickies"
+                  },
+                  {
+                    "title": "How to manage bookmarks",
+                    "path": "how-to-manage-bookmarks"
+                  },
+                  {
+                    "title": "How to manage personal settings",
+                    "path": "how-to-manage-personal-settings"
+                  },
+                  {
+                    "title": "How to change your password",
+                    "path": "how-to-change-your-password"
+                  },
+                  {
+                    "title": "How to use my tasks",
+                    "path": "how-to-use-my-tasks"
+                  },
+                  {
+                    "title": "Login",
+                    "path": "login"
+                  },
+                  {
+                    "title": "How to use my activities",
+                    "path": "how-to-use-my-activities"
+                  },
+                  {
+                    "title": "How to use my logged time",
+                    "path": "how-to-use-my-logged-time"
+                  },
+                  {
+                    "title": "How to access your API key",
+                    "path": "how-to-access-your-api-key"
+                  },
+                  {
+                    "title": "My events & milestones",
+                    "path": "my-events-milestones"
+                  },
+                  {
+                    "title": "Keyboard shortcuts",
+                    "path": "keyboard-shortcuts"
+                  },
+                  {
+                    "title": "How to integrate ProofHub with Slack (Beta)",
+                    "path": "how-to-integrate-proofhub-with-slack-beta"
+                  },
+                  {
+                    "title": "How to access dark mode",
+                    "path": "how-to-access-dark-mode"
+                  }
+                ],
+                "icon": "alert-triangle-icon"
               }
             ]
           }
