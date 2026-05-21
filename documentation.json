@@ -11,50 +11,6 @@
   "navigation": {
     "tabs": [
       {
-        "tab": "Documentation",
-        "icon": "book",
-        "groups": [
-          {
-            "group": "Getting Started",
-            "icon": "rocket",
-            "pages": [
-              {
-                "title": "Introduction",
-                "path": "introduction",
-                "icon": "home"
-              },
-              {
-                "title": "Quickstart",
-                "path": "quickstart",
-                "icon": "zap"
-              }
-            ]
-          },
-          {
-            "group": "Core Concepts",
-            "icon": "layers",
-            "pages": [
-              {
-                "title": "Features",
-                "path": "features",
-                "icon": "file-text"
-              }
-            ]
-          },
-          {
-            "group": "Advanced",
-            "icon": "puzzle",
-            "pages": [
-              {
-                "title": "Integrations",
-                "path": "integrations",
-                "icon": "link"
-              }
-            ]
-          }
-        ]
-      },
-      {
         "tab": "Help Center",
         "icon": "help-circle",
         "pages": [
@@ -324,7 +280,8 @@
                 "title": "Topics",
                 "path": "topics"
               }
-            ]
+            ],
+            "icon": "align-vertical-distribute-center-icon"
           }
         ],
         "icon": "align-vertical-distribute-center-icon"
