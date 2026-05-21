@@ -673,7 +673,13 @@
         "pages": [
           {
             "title": "FAQs",
-            "path": "faqs"
+            "path": "faqs",
+            "icon": "align-end-horizontal",
+            "show-sidebar": false,
+            "show-toc": false,
+            "show-parent-label": false,
+            "show-page-navigation": false,
+            "ask-feedback": false
           }
         ],
         "icon": "circle-question-mark"
