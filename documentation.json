@@ -55,17 +55,6 @@
         ]
       },
       {
-        "tab": "API",
-        "icon": "code",
-        "groups": [
-          {
-            "group": "Endpoints",
-            "openapi": "api-reference/openapi.yaml",
-            "pages": []
-          }
-        ]
-      },
-      {
         "tab": "Help Center",
         "icon": "help-circle",
         "pages": [
@@ -231,6 +220,36 @@
             "show-page-navigation": false
           }
         ]
+      },
+      {
+        "tab": "API",
+        "pages": [
+          {
+            "group": "Timezones",
+            "pages": []
+          },
+          {
+            "group": "Todolists",
+            "pages": []
+          },
+          {
+            "group": "Discussion Comments",
+            "pages": []
+          },
+          {
+            "group": "Topics",
+            "pages": []
+          },
+          {
+            "group": "Attachments",
+            "pages": []
+          },
+          {
+            "group": "Announcements",
+            "pages": []
+          }
+        ],
+        "icon": "align-vertical-distribute-center-icon"
       }
     ]
   },
