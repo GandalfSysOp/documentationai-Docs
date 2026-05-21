@@ -156,6 +156,10 @@
                 "group": "Tasks",
                 "pages": [
                   {
+                    "title": "How to archive and unarchive task lists",
+                    "path": "how-to-archive-and-unarchive-task-lists"
+                  },
+                  {
                     "title": "How to archive and unarchive task",
                     "path": "how-to-archive-and-unarchive-task"
                   },
