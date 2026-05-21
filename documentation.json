@@ -225,7 +225,9 @@
             "title": "Getting started",
             "path": "getting-started",
             "icon": "align-center-horizontal-icon",
-            "ask-feedback": false
+            "ask-feedback": false,
+            "show-sidebar": false,
+            "show-parent-label": false
           }
         ]
       }
