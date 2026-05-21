@@ -47,7 +47,9 @@
                   },
                   {
                     "title": "Project Views",
-                    "path": "project-views"
+                    "path": "project-views",
+                    "show-toc": false,
+                    "ask-feedback": false
                   },
                   {
                     "title": "How to add and manage projects",
