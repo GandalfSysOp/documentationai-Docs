@@ -670,7 +670,12 @@
       },
       {
         "tab": "FAQ",
-        "pages": [],
+        "pages": [
+          {
+            "title": "FAQs",
+            "path": "faqs"
+          }
+        ],
         "icon": "circle-question-mark"
       }
     ]
