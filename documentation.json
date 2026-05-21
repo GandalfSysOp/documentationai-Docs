@@ -225,6 +225,58 @@
         "tab": "API",
         "pages": [
           {
+            "group": "Files",
+            "pages": []
+          },
+          {
+            "group": "Folders",
+            "pages": []
+          },
+          {
+            "group": "Groups",
+            "pages": []
+          },
+          {
+            "group": "Languages",
+            "pages": []
+          },
+          {
+            "group": "Notebooks",
+            "pages": []
+          },
+          {
+            "group": "Notes",
+            "pages": []
+          },
+          {
+            "group": "People",
+            "pages": []
+          },
+          {
+            "group": "Projects",
+            "pages": []
+          },
+          {
+            "group": "Request forms",
+            "pages": []
+          },
+          {
+            "group": "Roles",
+            "pages": []
+          },
+          {
+            "group": "Tasks",
+            "pages": []
+          },
+          {
+            "group": "Time",
+            "pages": []
+          },
+          {
+            "group": "Timesheets",
+            "pages": []
+          },
+          {
             "group": "Timezones",
             "pages": []
           },
