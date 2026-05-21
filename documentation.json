@@ -70,6 +70,16 @@
         "icon": "help-circle",
         "pages": [
           {
+            "group": "Tasks",
+            "pages": [
+              {
+                "title": "Introduction to tasks",
+                "path": "introduction-to-tasks"
+              }
+            ],
+            "icon": "alert-octagon"
+          },
+          {
             "title": "Help Center",
             "path": "help-center",
             "icon": "home"
