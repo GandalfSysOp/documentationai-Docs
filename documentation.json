@@ -272,6 +272,22 @@
                 "group": "People",
                 "pages": [
                   {
+                    "title": "How to change the password",
+                    "path": "how-to-change-the-password"
+                  },
+                  {
+                    "title": "Bulk actions on people",
+                    "path": "bulk-actions-on-people"
+                  },
+                  {
+                    "title": "How to add and manage people",
+                    "path": "how-to-add-and-manage-people"
+                  },
+                  {
+                    "title": "How to add and manage group",
+                    "path": "how-to-add-and-manage-group"
+                  },
+                  {
                     "title": "Introduction to people",
                     "path": "introduction-to-people"
                   }
