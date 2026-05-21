@@ -228,6 +228,10 @@
             "group": "Endpoints",
             "pages": [
               {
+                "title": "Todolists",
+                "path": "todolists"
+              },
+              {
                 "title": "Discussion Comments",
                 "path": "discussion-comments"
               },
