@@ -228,6 +228,42 @@
             "group": "Endpoints",
             "pages": [
               {
+                "title": "Notes",
+                "path": "notes"
+              },
+              {
+                "title": "People",
+                "path": "people"
+              },
+              {
+                "title": "Projects",
+                "path": "projects"
+              },
+              {
+                "title": "Request forms",
+                "path": "request-forms"
+              },
+              {
+                "title": "Roles",
+                "path": "roles"
+              },
+              {
+                "title": "Tasks",
+                "path": "tasks"
+              },
+              {
+                "title": "Time",
+                "path": "time"
+              },
+              {
+                "title": "Timesheets",
+                "path": "timesheets"
+              },
+              {
+                "title": "Timezones",
+                "path": "timezones"
+              },
+              {
                 "title": "Todolists",
                 "path": "todolists"
               },
