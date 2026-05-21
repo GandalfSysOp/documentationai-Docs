@@ -70,26 +70,6 @@
         "icon": "help-circle",
         "pages": [
           {
-            "group": "Projects",
-            "pages": [
-              {
-                "title": "Introduction to projects",
-                "path": "introduction-to-projects"
-              }
-            ],
-            "icon": "alert-triangle-icon"
-          },
-          {
-            "group": "Tasks",
-            "pages": [
-              {
-                "title": "Introduction to tasks",
-                "path": "introduction-to-tasks"
-              }
-            ],
-            "icon": "alert-octagon"
-          },
-          {
             "title": "Help Center",
             "path": "help-center",
             "icon": "home"
@@ -121,6 +101,26 @@
             "icon": "book-open",
             "expandable": false,
             "pages": [
+              {
+                "group": "Projects",
+                "pages": [
+                  {
+                    "title": "Introduction to projects",
+                    "path": "introduction-to-projects"
+                  }
+                ],
+                "icon": "alert-triangle-icon"
+              },
+              {
+                "group": "Tasks",
+                "pages": [
+                  {
+                    "title": "Introduction to tasks",
+                    "path": "introduction-to-tasks"
+                  }
+                ],
+                "icon": "alert-octagon"
+              },
               {
                 "title": "Create a Project",
                 "path": "help-center/guides/create-a-project"
