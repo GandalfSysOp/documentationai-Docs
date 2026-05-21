@@ -667,6 +667,11 @@
           }
         ],
         "icon": "align-vertical-distribute-center-icon"
+      },
+      {
+        "tab": "FAQ",
+        "pages": [],
+        "icon": "circle-question-mark"
       }
     ]
   },
