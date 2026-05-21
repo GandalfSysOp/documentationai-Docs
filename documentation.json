@@ -94,6 +94,30 @@
                 "group": "Projects",
                 "pages": [
                   {
+                    "title": "Import projects from Basecamp",
+                    "path": "import-projects-from-basecamp"
+                  },
+                  {
+                    "title": "Import projects from Asana",
+                    "path": "import-projects-from-asana"
+                  },
+                  {
+                    "title": "What is a template",
+                    "path": "what-is-a-template"
+                  },
+                  {
+                    "title": "How to track and monitor projects",
+                    "path": "how-to-track-and-monitor-projects"
+                  },
+                  {
+                    "title": "Project Views",
+                    "path": "project-views"
+                  },
+                  {
+                    "title": "How to add and manage projects",
+                    "path": "how-to-add-and-manage-projects"
+                  },
+                  {
                     "title": "Introduction to projects",
                     "path": "introduction-to-projects"
                   }
@@ -109,10 +133,6 @@
                   }
                 ],
                 "icon": "alert-octagon"
-              },
-              {
-                "title": "Create a Project",
-                "path": "help-center/guides/create-a-project"
               }
             ]
           }
