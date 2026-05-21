@@ -1,0 +1,87 @@
+---
+title: ProofHub API
+---
+This RESTful API is an interface to the resources in ProofHub e.g. Projects, Discussions, Tasks, Files, Notes, People etc.
+
+If you are new to REST, you can understand the basics at <a href="http://en.wikipedia.org/wiki/REST" target="_blank" rel="noopener noreferrer"><u>http\://en.wikipedia.org/wiki/REST</u></a>. ProofHub's RESTful API accepts and returns JSON for serialisation.
+
+## **Getting an API key**
+
+Any user can get their own API key by visiting the Manage profile dropdown and clicking 5 times on the profile picture. The API key of the logged in user will be displayed in the pop up window opened.
+
+## **Making a request**
+
+All URLs (Base url) start with `https://companyurl.proofhub.com/api/v3/` (No HTTP, only HTTPS). You'll also need to include the `User-Agent` header to identify your app with every request.
+
+**Here is a curl based example:**
+
+```typescript
+curl -H 'X-API-KEY: YOUR API KEY' -H 'User-Agent: AppName (name@example.com)' https://companyurl.proofhub.com/api/v3/projects
+```
+
+To create something, it's the same deal except you also have to include the `Content-Type` header and the JSON data:
+
+```typescript
+curl -H 'X-API-KEY: YOUR API KEY' -H 'Content-Type: application/json' -H 'User-Agent: AppName (name@example.com)' -X POST -d '{ "name": "New project!" }' https://companyurl.proofhub.com/api/v3/projects
+```
+
+## **API endpoints**
+
+- <a href="https://github.com/ProofHub/api_v3/blob/master/sections/projects.md" target="_blank" rel="noopener noreferrer"><u>Projects</u></a>
+
+- <a href="https://github.com/ProofHub/api_v3/blob/master/sections/categories.md" target="_blank" rel="noopener noreferrer"><u>Categories</u></a>
+
+- <a href="https://github.com/ProofHub/api_v3/blob/master/sections/groups.md" target="_blank" rel="noopener noreferrer"><u>Groups</u></a>
+
+- <a href="https://github.com/ProofHub/api_v3/blob/master/sections/people.md" target="_blank" rel="noopener noreferrer"><u>People</u></a>
+
+- <a href="https://github.com/ProofHub/api_v3/blob/master/sections/roles.md" target="_blank" rel="noopener noreferrer"><u>Roles</u></a>
+
+- <a href="https://github.com/ProofHub/api_v3/blob/master/sections/topics.md" target="_blank" rel="noopener noreferrer"><u>Topics</u></a>
+
+- <a href="https://github.com/ProofHub/api_v3/blob/master/sections/topic%20comments.md" target="_blank" rel="noopener noreferrer"><u>Topic Comments</u></a>
+
+- <a href="https://github.com/ProofHub/api_v3/blob/master/sections/tododlists.md" target="_blank" rel="noopener noreferrer"><u>Todolists</u></a>
+
+- <a href="https://github.com/ProofHub/api_v3/blob/master/sections/tasks.md" target="_blank" rel="noopener noreferrer"><u>Tasks</u></a>
+
+- <a href="https://github.com/ProofHub/api_v3/blob/master/sections/files.md" target="_blank" rel="noopener noreferrer"><u>Files</u></a>
+
+- <a href="https://github.com/ProofHub/api_v3/blob/master/sections/attachments.md" target="_blank" rel="noopener noreferrer"><u>Attachments</u></a>
+
+- <a href="https://github.com/ProofHub/api_v3/blob/master/sections/events%20and%20milestones.md" target="_blank" rel="noopener noreferrer"><u>Events and milestones</u></a>
+
+- <a href="https://github.com/ProofHub/api_v3/blob/master/sections/notebooks.md" target="_blank" rel="noopener noreferrer"><u>Notebooks</u></a>
+
+- <a href="https://github.com/ProofHub/api_v3/blob/master/sections/notes.md" target="_blank" rel="noopener noreferrer"><u>Notes</u></a>
+
+- <a href="https://github.com/ProofHub/api_v3/blob/master/sections/folders.md" target="_blank" rel="noopener noreferrer"><u>Folders</u></a>
+
+- <a href="https://github.com/ProofHub/api_v3/blob/master/sections/timesheets.md" target="_blank" rel="noopener noreferrer"><u>Timesheets</u></a>
+
+- <a href="https://github.com/ProofHub/api_v3/blob/master/sections/time.md" target="_blank" rel="noopener noreferrer"><u>Time</u></a>
+
+- <a href="https://github.com/ProofHub/api_v3/blob/master/sections/requestforms.md" target="_blank" rel="noopener noreferrer"><u>Request forms</u></a>
+
+- <a href="https://github.com/ProofHub/api_v3/blob/master/sections/announcements.md" target="_blank" rel="noopener noreferrer"><u>Announcements</u></a>
+
+- <a href="https://github.com/ProofHub/api_v3/blob/master/sections/everything.md" target="_blank" rel="noopener noreferrer"><u>Everything</u></a>
+
+## **Things to remember**
+
+- **JSON Format**
+
+  We support JSON for receiving and sending the data. You must include `Content-Type: application/json` header with every POST and PUT request. Requests with invalid formats will be returned with `415` response.
+
+- **Identify your app**
+
+  You must include the `User-Agent: AppName (name@example.com)` header with every request. If this header is not supplied, request will be returned with `400` response.
+
+- **Rate Limits**
+
+  API calls are subject to rate limiting. Exceeding any rate limits will result in requests returning a status code of 429 (Too Many Requests). Rate limits are 25 requests per 10 second for the same account from the same IP. Check the Retry-After header to learn how many seconds to wait before retrying the request.
+
+- **Handling errors**
+
+  Error codes 500 Internal Server Error, 502 Bad Gateway, 503 Service Unavailable, or 504 Gateway Timeout means an error has occurred at our end. Re-trying in some time should solve the problem.
+

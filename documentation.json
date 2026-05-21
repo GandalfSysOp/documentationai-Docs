@@ -225,6 +225,12 @@
         "tab": "API",
         "pages": [
           {
+            "title": "ProofHub API",
+            "path": "proofhub-api",
+            "show-page-navigation": false,
+            "ask-feedback": false
+          },
+          {
             "group": "Endpoints",
             "pages": [
               {
