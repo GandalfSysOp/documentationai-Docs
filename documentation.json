@@ -156,6 +156,30 @@
                 "group": "Tasks",
                 "pages": [
                   {
+                    "title": "How to archive and unarchive task",
+                    "path": "how-to-archive-and-unarchive-task"
+                  },
+                  {
+                    "title": "How to add a recurring task",
+                    "path": "how-to-add-a-recurring-task"
+                  },
+                  {
+                    "title": "How to view task dependency",
+                    "path": "how-to-view-task-dependency"
+                  },
+                  {
+                    "title": "How to view task history",
+                    "path": "how-to-view-task-history"
+                  },
+                  {
+                    "title": "How to manage workflow in tasks",
+                    "path": "how-to-manage-workflow-in-tasks"
+                  },
+                  {
+                    "title": "How to log time in a task",
+                    "path": "how-to-log-time-in-a-task"
+                  },
+                  {
                     "title": "How to utilize all tasks",
                     "path": "how-to-utilize-all-tasks"
                   },
