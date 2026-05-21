@@ -29,6 +29,64 @@
             "expandable": false,
             "pages": [
               {
+                "group": "Manage",
+                "pages": [
+                  {
+                    "title": "How to add and manage workflow",
+                    "path": "how-to-add-and-manage-workflow"
+                  },
+                  {
+                    "title": "How to add and manage task labels",
+                    "path": "how-to-add-and-manage-task-labels"
+                  },
+                  {
+                    "title": "How to add and manage project categories",
+                    "path": "how-to-add-and-manage-project-categories"
+                  },
+                  {
+                    "title": "How to add and manage project statuses",
+                    "path": "how-to-add-and-manage-project-statuses"
+                  },
+                  {
+                    "title": "How to manage trash",
+                    "path": "how-to-manage-trash"
+                  },
+                  {
+                    "title": "How to add and manage custom roles",
+                    "path": "how-to-add-and-manage-custom-roles"
+                  },
+                  {
+                    "title": "How to manage bulk allocation",
+                    "path": "how-to-manage-bulk-allocation"
+                  },
+                  {
+                    "title": "How to manage apps and integrations",
+                    "path": "how-to-manage-apps-and-integrations"
+                  },
+                  {
+                    "title": "How to manage a plan",
+                    "path": "how-to-manage-a-plan"
+                  },
+                  {
+                    "title": "How to cancel an account",
+                    "path": "how-to-cancel-an-account"
+                  },
+                  {
+                    "title": "How to import from Asana and Basecamp",
+                    "path": "how-to-import-from-asana-and-basecamp"
+                  },
+                  {
+                    "title": "How to view activity logs",
+                    "path": "how-to-view-activity-logs"
+                  },
+                  {
+                    "title": "How to manage ProofHub settings",
+                    "path": "how-to-manage-proofhub-settings"
+                  }
+                ],
+                "icon": "lucide-settings"
+              },
+              {
                 "group": "Me View",
                 "pages": [
                   {
