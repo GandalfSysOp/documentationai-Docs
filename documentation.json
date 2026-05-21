@@ -24,10 +24,6 @@
             "ask-feedback": false
           },
           {
-            "title": "Guides2",
-            "path": "guides2"
-          },
-          {
             "group": "Guides",
             "icon": "book-open",
             "expandable": false,
