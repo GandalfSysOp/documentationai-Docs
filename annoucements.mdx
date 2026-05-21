@@ -1,0 +1,490 @@
+Announcements
+
+\====================
+
+\* \[Get announcements]\(#get-announcements)
+
+\* \[Get announcement]\(#get-announcement)
+
+\* \[Create announcement]\(#create-announcement)
+
+\* \[Update announcement]\(#update-announcement)
+
+\* \[Delete announcement]\(#delete-announcement)
+
+\* \[Get all comments]\(#get-all-comments)
+
+\* \[Get comment]\(#get-comment)
+
+\* \[Create comment]\(#create-comment)
+
+\* \[Update comment]\(#update-comment)
+
+\* \[Delete comment]\(#delete-comment)
+
+Get all announcements
+
+\----------------
+
+\* `GET v3/announcements` will return all announcements in an account.
+
+\`\`\`json
+
+\[
+
+&#x20;    \{
+
+&#x20;           "id": 29965434,
+
+&#x20;           "title": "Celebrate christmas event",
+
+&#x20;           "description": "",
+
+&#x20;           "assigned": \[
+
+&#x20;               5317500,
+
+&#x20;               2877438
+
+&#x20;           ],
+
+&#x20;           "created\_at": "2019-01-15T12:21:40+00:00",
+
+&#x20;           "updated\_at": "2019-01-15T12:21:40+00:00",
+
+&#x20;           "created\_by": 53175005,
+
+&#x20;           "updated\_by": 53175005,
+
+&#x20;           "deleted": false,
+
+&#x20;           "deleted\_by": null,
+
+&#x20;           "deleted\_source": null,
+
+&#x20;           "valid\_till": \{
+
+&#x20;               "date": "2019-01-16T12:21:40+00:00",
+
+&#x20;               "text": "24hours"
+
+&#x20;           },
+
+&#x20;           "comments\_allowed": true,
+
+&#x20;           "hide\_subscribers": false,
+
+&#x20;           "pinned": false,
+
+&#x20;           "attachments": \[],
+
+&#x20;           "seen": \[],
+
+&#x20;           "comments": \{
+
+&#x20;               "count": 0
+
+&#x20;           }
+
+&#x20;       },
+
+&#x20;    \{
+
+&#x20;           "id": 29965434,
+
+&#x20;           "title": "Birthday celebration",
+
+&#x20;           "description": "",
+
+&#x20;           "assigned": \[
+
+&#x20;               53175005,
+
+&#x20;               42018808,
+
+&#x20;           ],
+
+&#x20;           "created\_at": "2019-01-15T12:21:40+00:00",
+
+&#x20;           "updated\_at": "2019-01-15T12:21:40+00:00",
+
+&#x20;           "created\_by": 531750057,
+
+&#x20;           "updated\_by": 531750057,
+
+&#x20;           "deleted": false,
+
+&#x20;           "deleted\_by": null,
+
+&#x20;           "deleted\_source": null,
+
+&#x20;           "valid\_till": \{
+
+&#x20;               "date": "2019-01-16T12:21:40+00:00",
+
+&#x20;               "text": "forever"
+
+&#x20;           },
+
+&#x20;           "comments\_allowed": true,
+
+&#x20;           "hide\_subscribers": false,
+
+&#x20;           "pinned": false,
+
+&#x20;           "attachments": \[],
+
+&#x20;           "seen": \[],
+
+&#x20;           "comments": \{
+
+&#x20;               "count": 0
+
+&#x20;           }
+
+&#x20;       }
+
+]
+
+\`\`\`
+
+Get announcement
+
+\----------------
+
+\* `GET v3/announcements/3628560` will return the specified request form.
+
+\`\`\`json
+
+&#x20; \{
+
+&#x20;           "id": 29965434,
+
+&#x20;           "title": "Celebrate christmas event",
+
+&#x20;           "description": "",
+
+&#x20;           "assigned": \[
+
+&#x20;               5317500,
+
+&#x20;               2877438
+
+&#x20;           ],
+
+&#x20;           "created\_at": "2019-01-15T12:21:40+00:00",
+
+&#x20;           "updated\_at": "2019-01-15T12:21:40+00:00",
+
+&#x20;           "created\_by": 53175005,
+
+&#x20;           "updated\_by": 53175005,
+
+&#x20;           "deleted": false,
+
+&#x20;           "deleted\_by": null,
+
+&#x20;           "deleted\_source": null,
+
+&#x20;           "valid\_till": \{
+
+&#x20;               "date": "2019-01-16T12:21:40+00:00",
+
+&#x20;               "text": "24hours"
+
+&#x20;           },
+
+&#x20;           "comments\_allowed": true,
+
+&#x20;           "hide\_subscribers": false,
+
+&#x20;           "pinned": false,
+
+&#x20;           "attachments": \[],
+
+&#x20;           "seen": \[],
+
+&#x20;           "comments": \{
+
+&#x20;               "count": 0
+
+&#x20;           }
+
+&#x20;       }
+
+\`\`\`
+
+Create announcement
+
+\----------------
+
+\* `POST v3/announcements` will create a new announcement.
+
+\`\`\`json
+
+&#x20;   \{
+
+&#x20;   	"title":"Celebrate christmas event",
+
+&#x9;    "assigned": \[
+
+&#x20;               5317500,
+
+&#x20;               2877438
+
+&#x20;           ],
+
+&#x20;         "valid\_till":"24hours"
+
+&#x20;   }
+
+\`\`\`
+
+`200 OK` will be returned along with the JSON of the announcement (\[Get announcement]\(#get-announcements)) if the record is added.&#x20;
+
+Update announcement
+
+\----------------
+
+\* `PUT v3/announcement/3628560` will update the announcement.
+
+\`\`\`json
+
+&#x20;   \{
+
+&#x9;    "title":"Christmas celebration for this year"
+
+&#x20;   }
+
+\`\`\`
+
+`200 OK` will be returned along with the JSON of the announcement (\[Get announcements]\(#get-announcements)) if the record is updated. `403 Forbidden` will be returned in case of invalid access.
+
+Delete announcement
+
+\----------------
+
+\* `DELETE v3/announcement/3628560` will delete the announcement specified.
+
+`204 No Content` will be returned if the record is deleted. `403 Forbidden` will be returned in case of invalid access.
+
+Get all comments
+
+\----------------
+
+\* `GET v3/announcements/3628560/comments` will return all the comments of specified announcement.
+
+\`\`\`json
+
+\[
+
+&#x20;   \{
+
+&#x20;           "id": 4475533,
+
+&#x20;           "description": "Celebrations will start from next week",
+
+&#x20;           "announcement": 29965434,
+
+&#x20;           "created\_at": "2019-01-15T12:50:46+00:00",
+
+&#x20;           "updated\_at": "2019-01-15T12:50:46+00:00",
+
+&#x20;           "created\_by": 53175005,
+
+&#x20;           "updated\_by": 53175005,
+
+&#x20;           "attachments": \[]
+
+&#x20;       },
+
+&#x20;       \{
+
+&#x20;           "id": 44768902,
+
+&#x20;           "description": "Here are the screenshots for celebration",
+
+&#x20;           "announcement": 29965434,
+
+&#x20;           "created\_at": "2019-01-15T12:50:57+00:00",
+
+&#x20;           "updated\_at": "2019-01-15T12:50:57+00:00",
+
+&#x20;           "created\_by": 531750057,
+
+&#x20;           "updated\_by": 531750057,
+
+&#x20;           "attachments": \[
+
+&#x20;               \{
+
+&#x20;                   "id": 2041111053,
+
+&#x20;                   "name": "Christmas.png",
+
+&#x20;                   "byte\_size": 62156,
+
+&#x20;                   "created\_at": "2019-01-15T12:50:55+00:00",
+
+&#x20;                   "updated\_at": "2019-01-15T12:50:55+00:00",
+
+&#x20;                   "source": "upload",
+
+&#x20;                   "approved\_by\_me": false,
+
+&#x20;                   "approved\_count": 0,
+
+&#x20;                   "approved\_by": null,
+
+&#x20;                   "by\_me": true,
+
+&#x20;                   "file\_type": "png",
+
+&#x20;                   "proof\_count": 0,
+
+&#x20;                   "url": \{
+
+&#x20;                       "download": "<a href="https://yourcompany.proofhub.com/files/download/chat.php?94077609/a61744e1a00749156169e285086dd24e1547556655gz/726db883fb386fe904f39a6f6b7457a74fd2d8e9/Screen+Shot+2019-01-08+at+4.30.51+PM.png" target="_blank" rel="noopener noreferrer">https\://yourcompany.proofhub.com/files/download/chat.php?94077609/a61744e1a00749156169e285086dd24e1547556655gz/726db883fb386fe904f39a6f6b7457a74fd2d8e9/Screen+Shot+2019-01-08+at+4.30.51+PM.png</a>",
+
+&#x20;                       "thumbnail": "<a href="https://yourcompany.proofhub.com/files/view/chat.php?width=350&image=94077609/a61744e1a00749156169e285086dd24e1547556655gz.png" target="_blank" rel="noopener noreferrer">https\://yourcompany.proofhub.com/files/view/chat.php?width=350\&image=94077609/a61744e1a00749156169e285086dd24e1547556655gz.png</a>",
+
+&#x20;                       "image": "<a href="https://yourcompany.proofhub.com/files/view/chat.php?image=94077609/a61744e1a00749156169e285086dd24e1547556655gz.png" target="_blank" rel="noopener noreferrer">https\://yourcompany.proofhub.com/files/view/chat.php?image=94077609/a61744e1a00749156169e285086dd24e1547556655gz.png</a>",
+
+&#x20;                       "share": "<a href="https://yourcompany.proofhub.com/go?nqWurw" target="_blank" rel="noopener noreferrer">https\://yourcompany.proofhub.com/go?nqWurw</a>"
+
+&#x20;                   },
+
+&#x20;                   "creator": \{
+
+&#x20;                       "id": 53175005
+
+&#x20;                   },
+
+&#x20;                   "updated\_by": 53175005,
+
+&#x20;                   "version\_main": 2041111053,
+
+&#x20;                   "version\_count": 0,
+
+&#x20;                   "current\_version": true,
+
+&#x20;                   "proof\_version": 1,
+
+&#x20;                   "connected\_with": "announcement\_comment",
+
+&#x20;                   "connected\_id": 4476890,
+
+&#x20;                   "notify": null,
+
+&#x20;                   "project": \{
+
+&#x20;                       "id": 1959608
+
+&#x20;                   },
+
+&#x20;                   "connected": \{
+
+&#x20;                       "id": 44768902,
+
+&#x20;                       "with": "announcement\_comment"
+
+&#x20;                   },
+
+&#x20;                   "folder": \{
+
+&#x20;                       "id": 0
+
+&#x20;                   },
+
+&#x20;                   "version": \{
+
+&#x20;                       "count": 0,
+
+&#x20;                       "current": true
+
+&#x20;                   }
+
+&#x20;               }
+
+&#x20;           ]
+
+&#x20;       }
+
+]
+
+\`\`\`
+
+Get comment
+
+\----------------
+
+\* `GET v3/announcements/3628560/comments/4475533` will return the specified comment.
+
+\`\`\`json
+
+\{
+
+&#x20;           "id": 4475533,
+
+&#x20;           "description": "Celebrations will start from next week",
+
+&#x20;           "announcement": 29965434,
+
+&#x20;           "created\_at": "2019-01-15T12:50:46+00:00",
+
+&#x20;           "updated\_at": "2019-01-15T12:50:46+00:00",
+
+&#x20;           "created\_by": 53175005,
+
+&#x20;           "updated\_by": 53175005,
+
+&#x20;           "attachments": \[]
+
+&#x20;       }
+
+\`\`\`
+
+Create comment
+
+\----------------
+
+\* `POST v3/announcements/3628560/comments/4475533` will create a new comment in the specified announcement from the parameters passed.
+
+\`\`\`json
+
+\{
+
+&#x9;"description":"All employees participation is required"
+
+}
+
+\`\`\`
+
+`200 OK` will be returned along with the JSON of the comment (\[Get comment]\(#get-comment)) if the record is added. `403 Forbidden` will be returned in case of invalid access.
+
+Update comment
+
+\----------------
+
+\* `PUT v3/announcements/3628560/comments/4475533` will update the announcement comment from the parameters passed.
+
+\`\`\`json
+
+\{
+
+&#x9;"description":"Call with client"
+
+}
+
+\`\`\`
+
+`200 OK` will be returned along with the JSON of the comment (\[Get comment]\(#get-comment)) if the record is updated. `403 Forbidden` will be returned in case of invalid access.
+
+Delete comment
+
+\----------------
+
+\* `DELETE v3/announcements/3628560/comments/4475533` will delete the announcement comment.
+
+204 No Content will be returned if the record is deleted. 403 Forbidden will be returned in case of invalid access.
+

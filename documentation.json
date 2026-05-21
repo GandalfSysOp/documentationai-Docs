@@ -226,7 +226,12 @@
         "pages": [
           {
             "group": "Announcements",
-            "pages": []
+            "pages": [
+              {
+                "title": "annoucements",
+                "path": "annoucements"
+              }
+            ]
           },
           {
             "group": "Attachments",
